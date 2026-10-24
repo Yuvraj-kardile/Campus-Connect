@@ -1,0 +1,9 @@
+PostgreSQL JDBC driver
+
+Maven dependency configured in pom.xml:
+org.postgresql:postgresql:42.7.14
+
+Official direct download URL:
+https://jdbc.postgresql.org/download/postgresql-42.7.14.jar
+
+The current environment cannot fetch binary artifacts from the internet, so the JAR is not embedded as a separate file in this archive. Run `mvn clean package` with internet access and Maven downloads the driver and includes it in WEB-INF/lib inside the WAR.
